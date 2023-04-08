@@ -1,13 +1,36 @@
-/* #root {
-  max-width: 1280px;
+#root {
+  max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
- */
 
- .App {
-  text-align: center;
+ul {
+  list-style: none;
 }
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+li{
+  font-style: italic;
+}
+
+
+.App {
+  text-align: center;
+
+}
+body{
+background-image: url(/src/images/cleaning-1.jpg);
+}
+
+
 
 
