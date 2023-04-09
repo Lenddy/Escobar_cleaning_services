@@ -33,4 +33,11 @@ background-image: url(/src/images/cleaning-1.jpg);
 
 
 
+@font-face {
+  font-family: 'Dancing Script', cursive;
+  src: url(/src/fonts/DancingScript-VariableFont_wght.ttf);
+}
 
+.cursive{
+  font-family:'Dancing Script', cursive;
+}

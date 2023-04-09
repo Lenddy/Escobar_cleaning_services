@@ -24,9 +24,7 @@ const Home = () => {
 			<div>
 				<Typography variant="h3">
 					<strong>
-						{" "}
 						<i>
-							{" "}
 							Are you tired of spending your weekends cleaning
 							your home?
 						</i>
@@ -34,7 +32,7 @@ const Home = () => {
 				</Typography>
 			</div>
 
-			<Typography variant="h4">
+			<Typography variant="h4" style={{ marginTop: "10px" }}>
 				Let our professional cleaning service take care of the dirty
 				work for you! Our team is dedicated to providing the highest
 				quality cleaning services to our clients, ensuring their homes

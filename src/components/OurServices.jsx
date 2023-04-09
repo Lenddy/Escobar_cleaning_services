@@ -36,14 +36,6 @@ const OurServices = () => {
 					including:{" "}
 				</Typography>
 
-				<i></i>
-				<i></i>
-				<i></i>
-				<i></i>
-				<i></i>
-				<i></i>
-				<i></i>
-				<i></i>
 				<ul style={{ textAlign: "center" }}>
 					<h2>
 						<i>

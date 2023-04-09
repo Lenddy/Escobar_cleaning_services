@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Box, Tab, Button, Stack } from "@mui/material";
-import "../App.css";
+import logo from "../images/ESCOBAR.png";
 // Typography,,TextField,InputAdornment,MenuItem,ToggleButton,IconButton,
 import BackTop from "./BackTop";
 import Home from "./Home";
@@ -25,24 +25,29 @@ export const TitleScreen = (props) => {
 					variant="contained"
 					size="large"
 					onClick={() => scrollToSection(home)}
+					// style={{
+					// 	width: "150px",
+					// 	height: "70px",
+					// }}
 				>
-					home
+					<h2>home</h2>
 				</Button>
 				<Button
 					variant="contained"
 					size="large"
 					onClick={() => scrollToSection(services)}
 				>
-					services
+					<h2>services</h2>
 				</Button>
 				<Button
 					variant="contained"
 					size="large"
 					onClick={() => scrollToSection(call)}
 				>
-					contact us
+					<h2>contact us</h2>
 				</Button>
 			</Stack>
+
 			<div ref={home}>
 				<Home />
 			</div>
@@ -54,6 +59,16 @@ export const TitleScreen = (props) => {
 			<div ref={call}>
 				<Call />
 			</div>
+			<img
+				src={logo}
+				alt="logo"
+				width={400}
+				height={400}
+				style={{
+					backgroundColor: "white",
+					marginTop: "30px",
+				}}
+			/>
 		</div>
 	);
 };
