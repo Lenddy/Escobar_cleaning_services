@@ -27,7 +27,7 @@ const Call = () => {
 				}}
 			>
 				<h1 style={{ color: "darkblue" }}> contact us today! </h1>
-				<h2 style={{ color: "red" }}>(501)-508-9667</h2>
+				<h2 style={{ color: "red" }}>(501)-732-7009</h2>
 				<Typography variant="h4" className="cursive">
 					experience the peace of mind that comes with having a clean
 					and organized home. Contact us today.
